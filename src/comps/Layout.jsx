@@ -80,7 +80,7 @@ export default function Layout(props){
             <div id='response-view'>
                 {response && <ResponseParser response={response} tutor={tutor} general={general} owlchat={owlchat}/>}
                 {!response &&
-                <div>
+                <div id='helper'>
                     <div id='instructions'>
                         {tutor && <div><p>
                             Ask Sophia questions about your homework. The responses will try and guide you to the right answer and more often than not
@@ -88,14 +88,8 @@ export default function Layout(props){
                         </p></div>}
                     </div>
                     <div id='center-mic'>
-                        <div>
-                            <button onClick={()=>handleMicButtonClick()}>MIC</button>
-                        </div>
-                        <div>
-                            <button class="menu-button" onClick={(e)=>handleChangeOfModel('tutor')}>T</button>
-                            <button class="menu-button" onClick={(e)=>handleChangeOfModel('general')}>G</button>
-                            <button class="menu-button" onClick={(e)=>handleChangeOfModel('owlchat')}>O</button>
-                        </div>
+                            <button class='menu-button' onClick={() => handleMicButtonClick()}>MIC</button>
+                        
                     </div>    
                 </div>}
             </div>
@@ -105,6 +99,11 @@ export default function Layout(props){
                     <input type='text' placeholder="Use the mic or type in your response..." onInput={(e)=>setQueryText(e.target.value)} name='text-input' id='text_input_selector'/>
                     <button onClick={()=>handleQuerySubmit()} className="submit-button">Ask</button>
                 </section>
+                <div id='model-toggles'>
+                    <button class="menu-button" onClick={(e) => handleChangeOfModel('tutor')}>T</button>
+                    <button class="menu-button" onClick={(e) => handleChangeOfModel('general')}>G</button>
+                    <button class="menu-button" onClick={(e) => handleChangeOfModel('owlchat')}>O</button>
+                </div>
             </div>
         </section>
     )

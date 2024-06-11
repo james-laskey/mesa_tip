@@ -3,6 +3,7 @@ body {
   padding: 0;
   width: 100vw;
   height:100vh;
+  overflow:hidden;
 }
 main {
   width: 100%;
@@ -11,14 +12,27 @@ main {
   color: #333;
   margin: 0;
 }
+#center-mic {
+    text-align:center;
+    display:inline-flex;
+    justify-content:center;
+    width: 100%;
+}
 #response-view {
-  height: 90vh;
+  height: max-content;
+  overflow-y:scroll;
 }
 #response-view div #instructions {
   text-align: center;
 }
 #response-view div #response-selector {
   text-align: justify;
+}
+
+#helper {
+    font-size: 2rem;
+    font-weight: 700;
+    padding:2rem;
 }
 main > section {
   width: 100%;
@@ -27,34 +41,45 @@ main > section {
   overflow-y: scroll;
   overflow-x: hidden;
 }
+#text-input {
+    padding: 1rem;
+}
 input[type='text'] {
   padding:1rem;
   width:80%;
   font-weight: 600;
   background-color: white;
   border-radius: 50px;
+  border-color: transparent;
+}
+.submit-button {
+    padding: 1rem;
+    background-color: #C4263B;
+    border-color: transparent;
+    border-radius: 20px;
+    margin-left: 0.5rem;
 }
 .loading-animation {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
+ }
   
-  #animation-window {
+#animation-window {
     max-width: 200px;
     max-height: 200px;
-  }
+}
 
-  #overlay {
+#overlay {
     position: absolute;
     width: 100vw;
     height: 100vh;
     z-index: 99;
     display: flex;
-  }
+}
   
-  .circle1 {
+.circle1 {
     left: 80px;
     width: 50px;
     height: 50px;
@@ -62,9 +87,24 @@ input[type='text'] {
     background: linear-gradient(to bottom, #EBE7E2, transparent); /* Adjust color as needed */
     position: absolute;
     animation: moveCircle 2s infinite linear;
-  }
-  
+}
 
+#model-toggles {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.menu-button {
+    
+    padding: 1rem;
+    background-color: #C4263B;
+    border-radius: 100rem;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-color: transparent;
+}
 
   .circle2 {
     left: 100px;

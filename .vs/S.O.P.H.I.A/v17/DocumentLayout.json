@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zimav\\dev\\Robots\\S.O.P.H.I.A\\src\\comps\\Layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\comps\\Layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zimav\\dev\\Robots\\S.O.P.H.I.A\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zimav\\dev\\Robots\\S.O.P.H.I.A\\src\\comps\\LoadingScreen.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\comps\\LoadingScreen.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zimav\\dev\\Robots\\S.O.P.H.I.A\\src\\comps\\LoadingScreen.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\comps\\LoadingScreen.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zimav\\dev\\Robots\\S.O.P.H.I.A\\src\\comps\\LoadingScreen.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\comps\\LoadingScreen.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zimav\\dev\\Robots\\S.O.P.H.I.A\\src\\comps\\Layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\comps\\Layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zimav\\dev\\Robots\\S.O.P.H.I.A\\src\\comps\\ResponseParser.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,6 +43,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\zimav\\dev\\Robots\\S.O.P.H.I.A\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Users\\zimav\\dev\\Robots\\S.O.P.H.I.A\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-06T20:15:18.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoadingScreen.jsx",
+              "DocumentMoniker": "C:\\Users\\zimav\\dev\\Robots\\S.O.P.H.I.A\\src\\comps\\LoadingScreen.jsx",
+              "RelativeDocumentMoniker": "src\\comps\\LoadingScreen.jsx",
+              "ToolTip": "C:\\Users\\zimav\\dev\\Robots\\S.O.P.H.I.A\\src\\comps\\LoadingScreen.jsx",
+              "RelativeToolTip": "src\\comps\\LoadingScreen.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-05-27T17:49:26.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Layout.jsx",
               "DocumentMoniker": "C:\\Users\\zimav\\dev\\Robots\\S.O.P.H.I.A\\src\\comps\\Layout.jsx",
               "RelativeDocumentMoniker": "src\\comps\\Layout.jsx",
@@ -46,19 +80,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LoadingScreen.jsx",
               "DocumentMoniker": "C:\\Users\\zimav\\dev\\Robots\\S.O.P.H.I.A\\src\\comps\\LoadingScreen.jsx",
               "RelativeDocumentMoniker": "src\\comps\\LoadingScreen.jsx",
               "ToolTip": "C:\\Users\\zimav\\dev\\Robots\\S.O.P.H.I.A\\src\\comps\\LoadingScreen.jsx",
               "RelativeToolTip": "src\\comps\\LoadingScreen.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-05-09T19:46:39.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ResponseParser.jsx",
               "DocumentMoniker": "C:\\Users\\zimav\\dev\\Robots\\S.O.P.H.I.A\\src\\comps\\ResponseParser.jsx",
               "RelativeDocumentMoniker": "src\\comps\\ResponseParser.jsx",
@@ -76,7 +110,7 @@
               "RelativeDocumentMoniker": "server.js",
               "ToolTip": "C:\\Users\\zimav\\dev\\Robots\\S.O.P.H.I.A\\server.js",
               "RelativeToolTip": "server.js",
-              "ViewState": "AQIAABAAAAAAAAAAAAAqwB0AAAAAAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAQwDcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-05-09T19:43:09.976Z",
               "EditorCaption": ""
