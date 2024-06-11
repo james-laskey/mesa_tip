@@ -49,10 +49,9 @@ app.post('/chat', async (req, res) => {
 // Function to make API request to ChatGPT-4
 async function chatWithGPT(inputText, history) {
     // Specify your ChatGPT-4 API endpoint
-    const apiEndpoint = 'YOUR_CHATGPT_4_API_ENDPOINT';
+    const apiEndpoint = 'https://api.openai.com/v1/chat/';
 
     // Specify your ChatGPT-4 API key
-    const apiKey = 'sk-proj-Ztf2CKqbn4OHXZArKyUjT3BlbkFJ7HBZFCady90rDgXzoJ2c';
 
     // Prepare request headers
     const headers = {
